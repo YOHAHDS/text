@@ -1,0 +1,19 @@
+name: My first workflow
+on:
+- push
+
+jobs:
+     my_first_pipeline:
+           runs-on  ubuntu-latest
+
+
+           steps:
+           -name:
+            run:echo"hello world"
+
+
+           -name；asd
+            run: date
+
+
+ 
